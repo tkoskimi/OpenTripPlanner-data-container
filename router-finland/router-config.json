@@ -58,6 +58,10 @@
       "fuzzyTripMatching": false
     },
     {
+      "type": "websocket-gtfs-rt-updater",
+      "url": "ws://domain:port/digitransit/oulu/tripupdates",
+    },
+    {
       "type": "real-time-alerts",
       "frequencySec": 30,
       "url": "http://92.62.36.215/RTIX/service-alerts",
